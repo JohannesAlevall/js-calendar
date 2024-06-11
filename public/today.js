@@ -2,7 +2,7 @@ const datePlacement = document.getElementById("aside-date");
 const dayPlacement = document.getElementById("aside-day");
 const timePlacement = document.getElementById("aside-time");
 
-days = ["Söndag", "Måndag", "Tisdag", "Onsdag", "Torsdag", "Fredag"]
+days = ["Söndag", "Måndag", "Tisdag", "Onsdag", "Torsdag", "Fredag", "Lördag"]
 
 function setDateWelcomeSegment() {
     let date = new Date();
