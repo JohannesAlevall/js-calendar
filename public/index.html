@@ -5,20 +5,22 @@
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Document</title>
+  <title>Js Calender</title>
   <link rel="stylesheet" href="index.css">
-  <script src="main.js"></script>
 </head>
 
 <body>
-
   <header class="header">
     <h1>Schema</h1>
   </header>
   <div class="page">
     <aside>
       <div class="aside-container">
-        <div class="aside-welcome-segment"></div>
+        <div class="aside-welcome-segment" data-cy="welcome-segment">
+          <h1 id="aside-date"></h1>
+          <h1 id="aside-day"></h1>
+          <h1 id="aside-time"></h1>
+        </div>
         <div class="aside-add-task">
           <h1>Add a to-do</h1>
           <button>+</button>
@@ -41,6 +43,8 @@
       </div>
     </main>
   </div>
+  <script src="today.js"></script>
+  <script src="main.js"></script>
 </body>
 
 </html>
